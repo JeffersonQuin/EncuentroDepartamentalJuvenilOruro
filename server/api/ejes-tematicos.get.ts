@@ -1,8 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import ejesData from '../data/ejes-tematicos.json'
 
 export default defineEventHandler(() => {
-  const filePath = resolve('./server/data/ejes-tematicos.json')
-  const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-  return data
+  return ejesData
 })

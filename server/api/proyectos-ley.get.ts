@@ -1,8 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import proyectosData from '../data/proyectos-ley.json'
 
 export default defineEventHandler(() => {
-  const filePath = resolve('./server/data/proyectos-ley.json')
-  const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-  return data
+  return proyectosData
 })

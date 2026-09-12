@@ -1,8 +1,146 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-
 export default defineEventHandler(() => {
-  const filePath = resolve('./server/data/videos.json')
-  const data = JSON.parse(readFileSync(filePath, 'utf-8'))
+  // Datos inline para compatibilidad con Vercel
+  const data = {
+    "seccion": {
+      "badge": "Contenido Exclusivo en Video",
+      "titulo": "Conoce cada detalle del Encuentro en formato dinámico",
+      "descripcion": "Videos explicativos diseñados para tu celular, explicando cada fase, ley y oportunidad de este evento histórico."
+    },
+    "bloques": [
+      {
+        "id": 1,
+        "posicionCelular": "izquierda",
+        "capsula": "Cápsula 1",
+        "gradiente": "from-sangre to-azulNoche",
+        "icono": "fa-bullhorn",
+        "botonLabel": "Reproduciendo",
+        "etiqueta": "Lanzamiento Oficial",
+        "descripcionVideo": "Presentación desde el hemiciclo de la Brigada de Oruro.",
+        "videoLocal": null,
+        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "tiktokUrl": null,
+        "texto": {
+          "numero": "Bloque 01",
+          "categoria": "Anuncio Histórico",
+          "colorCategoria": "text-sangre",
+          "titulo": "Lanzamiento Oficial: Oruro abre sus puertas a la juventud",
+          "parrafo": "La Brigada Parlamentaria de Oruro presenta formalmente la convocatoria dirigida a colegiales de secundaria, estudiantes universitarios de la UTO, institutos técnicos y colectivos juveniles de todo el departamento.",
+          "puntos": [
+            "Convocatoria abierta para las 16 provincias de Oruro.",
+            "Espacio libre, plural e inclusivo sin distinción política."
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "posicionCelular": "derecha",
+        "capsula": "Cápsula 2",
+        "gradiente": "from-azulNoche via-slate-900 to-sangre",
+        "icono": "fa-lightbulb",
+        "botonLabel": "Reproduciendo",
+        "etiqueta": "¿Qué es el Encuentro?",
+        "descripcionVideo": "Descubre en qué consiste este encuentro y por qué importa tu participación.",
+        "videoLocal": null,
+        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "tiktokUrl": null,
+        "texto": {
+          "numero": "Bloque 02",
+          "categoria": "Propósito Central",
+          "colorCategoria": "text-azulNoche",
+          "titulo": "¿Qué es el Encuentro Departamental Juvenil?",
+          "parrafo": "Más que una conferencia, es una mesa de trabajo real donde las inquietudes de los jóvenes se traducen en mandatos parlamentarios. Tendrás contacto directo con autoridades legislativas nacionales para que tus ideas se conviertan en leyes reales.",
+          "cards": [
+            {
+              "icono": "fa-comments",
+              "colorIcono": "text-sangre",
+              "titulo": "Diálogo Abierto",
+              "descripcion": "Debate cara a cara con legisladores."
+            },
+            {
+              "icono": "fa-certificate",
+              "colorIcono": "text-oro",
+              "titulo": "Acreditación",
+              "descripcion": "Certificado con valor curricular avalado."
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "posicionCelular": "izquierda",
+        "capsula": "Cápsula 3",
+        "gradiente": "from-slate-900 via-sangreDark to-slate-950",
+        "icono": "fa-gavel",
+        "botonLabel": "Reproduciendo",
+        "etiqueta": "Proyectos de Ley",
+        "descripcionVideo": "El Dip. Daniel Alcalá explica los 4 proyectos normativos para los jóvenes de Oruro.",
+        "videoLocal": null,
+        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "tiktokUrl": null,
+        "texto": {
+          "numero": "Bloque 03",
+          "categoria": "Agenda Normativa",
+          "colorCategoria": "text-sangre",
+          "titulo": "Cuatro Proyectos de Ley explicados",
+          "parrafo": "Las leyes no deben redactarse a espaldas del pueblo. Conoce cómo benefician a los jóvenes deportistas, emprendedores y universitarios del departamento de Oruro.",
+          "nota": {
+            "icono": "fa-sparkles",
+            "titulo": "Tu voto y opinión cuentan:",
+            "texto": "Durante el encuentro podrás presentar adiciones, modificaciones y firmar el respaldo ciudadano a estas leyes."
+          }
+        }
+      },
+      {
+        "id": 4,
+        "posicionCelular": "derecha",
+        "capsula": "Cápsula 4",
+        "gradiente": "from-azulNoche via-slate-900 to-azulProfundo",
+        "icono": "fa-users",
+        "botonLabel": "Reproduciendo",
+        "etiqueta": "Testimonios",
+        "descripcionVideo": "Jóvenes orureños cuentan por qué se suman al Encuentro Departamental Juvenil.",
+        "videoLocal": null,
+        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "tiktokUrl": null,
+        "texto": {
+          "numero": "Bloque 04",
+          "categoria": "Voces de Oruro",
+          "colorCategoria": "text-azulNoche",
+          "titulo": "Testimonios: Jóvenes de Oruro hablan",
+          "parrafo": "Jóvenes estudiantes, deportistas y líderes juveniles de distintas provincias de Oruro comparten sus expectativas sobre el encuentro y la importancia de participar en la construcción de leyes que los representan.",
+          "cita": {
+            "texto": "Siempre nos dijeron que éramos el futuro, pero con estas leyes seremos los protagonistas del presente en Oruro.",
+            "autor": "Mariana Q., Estudiante de Derecho UTO"
+          }
+        }
+      },
+      {
+        "id": 5,
+        "posicionCelular": "izquierda",
+        "capsula": "Cápsula 5",
+        "gradiente": "from-sangre via-slate-900 to-azulNoche",
+        "icono": "fa-map-pin",
+        "botonLabel": "Reproduciendo",
+        "etiqueta": "¿Cuándo y dónde?",
+        "descripcionVideo": "Horarios, lugar y cómo llegar al Encuentro Departamental Juvenil de Oruro.",
+        "videoLocal": null,
+        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "tiktokUrl": null,
+        "texto": {
+          "numero": "Bloque 05",
+          "categoria": "Información del Evento",
+          "colorCategoria": "text-sangre",
+          "titulo": "¿Cuándo y dónde? Todo lo que necesitas saber",
+          "parrafo": "El Encuentro Departamental Juvenil se realizará el 21 de Septiembre, Día de la Juventud y la Primavera. En este video encontrarás toda la información práctica: lugar exacto, horario de ingreso y lo que debes llevar el día del evento.",
+          "badges": [
+            { "icono": "fa-clock", "texto": "14:00 PM Puntual", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
+            { "icono": "fa-map-location-dot", "texto": "Centro de Oruro", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
+            { "icono": "fa-id-badge", "texto": "Ingreso Gratuito previa inscripción", "estilo": "bg-amber-50 text-amber-900 border-oro/40" }
+          ]
+        }
+      }
+    ]
+  }
+  
   return data
 })

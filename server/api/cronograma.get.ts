@@ -1,8 +1,5 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import cronogramaData from '../data/cronograma.json'
 
 export default defineEventHandler(() => {
-  const filePath = resolve('./server/data/cronograma.json')
-  const data = JSON.parse(readFileSync(filePath, 'utf-8'))
-  return data
+  return cronogramaData
 })
