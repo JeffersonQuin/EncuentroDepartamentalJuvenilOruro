@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans antialiased text-slate-800 bg-marfil">
+  <div v-if="evento" class="font-sans antialiased text-slate-800 bg-marfil">
 
     <!-- Top Bar informativa -->
     <TheTopBar :top-bar="evento.topBar" />
@@ -11,22 +11,22 @@
     <HeroSection :hero="evento.hero" />
 
     <!-- Secciones zigzag de videos verticales -->
-    <VideosZigzag :data="videos" />
+    <VideosZigzag v-if="videos" :data="videos" />
 
     <!-- 4 Proyectos de Ley -->
-    <ProyectosLey :data="proyectosLey" />
+    <ProyectosLey v-if="proyectosLey" :data="proyectosLey" />
 
     <!-- Ejes temáticos y certificado -->
-    <EjesTematicos :data="ejesTematicos" />
+    <EjesTematicos v-if="ejesTematicos" :data="ejesTematicos" />
 
     <!-- Cronograma interactivo -->
-    <CronogramaTimeline :data="cronograma" />
+    <CronogramaTimeline v-if="cronograma" :data="cronograma" />
 
     <!-- Flyer oficial del evento -->
     <FlyerOficial />
 
     <!-- Ubicación y mapa -->
-    <UbicacionMapa :data="ubicacion" />
+    <UbicacionMapa v-if="ubicacion" :data="ubicacion" />
 
     <!-- Sección CTA de inscripción -->
     <InscripcionCta
@@ -39,6 +39,14 @@
       :nav-links="evento.navLinks"
     />
 
+  </div>
+  
+  <!-- Loading state -->
+  <div v-else class="min-h-screen flex items-center justify-center bg-azulNoche">
+    <div class="text-center">
+      <div class="w-16 h-16 border-4 border-oro border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+      <p class="text-white text-lg font-semibold">Cargando evento...</p>
+    </div>
   </div>
 </template>
 
