@@ -30,7 +30,6 @@
 
     <!-- Sección CTA de inscripción -->
     <InscripcionCta
-      :registro-url="evento.registroUrl"
       :inscripcion="evento.inscripcion"
     />
 
@@ -38,7 +37,6 @@
     <TheFooter
       :footer="evento.footer"
       :nav-links="evento.navLinks"
-      :registro-url="evento.registroUrl"
     />
 
   </div>

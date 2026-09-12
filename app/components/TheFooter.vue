@@ -81,14 +81,12 @@
     <!-- Botón flotante permanente -->
     <div class="fixed bottom-4 right-4 z-40 sm:bottom-6 sm:right-6">
       <a
-        :href="registroUrl"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="#inscribirme"
         class="flex items-center gap-2.5 px-5 py-3.5 rounded-full bg-sangre text-white text-xs sm:text-sm font-extrabold shadow-2xl border-2 border-oro hover:scale-105 transition-all hover:bg-sangreDark"
-        aria-label="Registrarme al evento (abre en nueva pestaña)"
+        aria-label="Ir al formulario de inscripción"
       >
         <i class="fa-solid fa-pen-to-square text-oro text-sm" aria-hidden="true"></i>
-        <span>Registrarme al Evento</span>
+        <span>Inscribirme Ahora</span>
       </a>
     </div>
   </footer>
@@ -104,6 +102,5 @@ defineProps<{
     credits: string
   }
   navLinks: Array<{ label: string; href: string }>
-  registroUrl: string
 }>()
 </script>
