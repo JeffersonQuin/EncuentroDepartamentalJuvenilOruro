@@ -1,0 +1,53 @@
+{
+  "seccion": {
+    "badge": "Ubicación Confirmada",
+    "titulo": "¿Cómo llegar al evento en Oruro?",
+    "descripcion": "El encuentro se llevará a cabo en el corazón de la ciudad de Oruro, en una ubicación de fácil acceso para todas las líneas de transporte público y delegaciones interprovinciales."
+  },
+  "sede": {
+    "nombre": "Auditorio Central / Centro de Convenciones de Oruro",
+    "direccion": "Calle Plata y Adolfo Mier (zona céntrica, a pasos de la Plaza 10 de Febrero)",
+    "ciudad": "Oruro",
+    "departamento": "Oruro",
+    "pais": "Bolivia",
+    "referencia": "A metros de la Plaza 10 de Febrero",
+    "mapaEmbedUrl": null,
+    "coordenadas": {
+      "lat": -17.9635,
+      "lng": -67.1102
+    }
+  },
+  "accesos": [
+    {
+      "id": 1,
+      "icono": "fa-map-pin",
+      "colorFondo": "bg-sangre/10",
+      "colorIcono": "text-sangre",
+      "titulo": "Dirección Principal",
+      "descripcion": "Auditorio Central de la Brigada Parlamentaria / Centro de Convenciones de Oruro, Calle Plata y Adolfo Mier (zona céntrica, a pasos de la Plaza 10 de Febrero)."
+    },
+    {
+      "id": 2,
+      "icono": "fa-bus",
+      "colorFondo": "bg-azulNoche/10",
+      "colorIcono": "text-azulNoche",
+      "titulo": "Líneas de Transporte",
+      "descripcion": "Micros y minis Líneas 1, 8, 101, y líneas rojas con parada directa en la Plaza Principal."
+    },
+    {
+      "id": 3,
+      "icono": "fa-route",
+      "colorFondo": "bg-oro/20",
+      "colorIcono": "text-amber-800",
+      "titulo": "Delegaciones de las 16 Provincias",
+      "descripcion": "Mesa de recepción especial en el ingreso para grupos organizados de municipios y comunidades rurales."
+    }
+  ],
+  "mapa": {
+    "badgeSede": "Sede Oficial Confirmada",
+    "tituloPin": "Centro Cívico de Oruro",
+    "referenciaPin": "A metros de la Plaza 10 de Febrero",
+    "fecha": "Domingo 21 Sept",
+    "hora": "14:00 PM"
+  }
+}

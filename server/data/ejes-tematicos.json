@@ -1,0 +1,47 @@
+{
+  "seccion": {
+    "badge": "Ejes de Trabajo y Oportunidades",
+    "titulo": "¿Qué ganarás al ser parte de este Encuentro?",
+    "descripcion": "Desarrollado para potenciar tus habilidades cívicas, tu perfil profesional y tu capacidad de liderazgo comunitario."
+  },
+  "ejes": [
+    {
+      "id": 1,
+      "titulo": "Liderazgo & Gobernanza",
+      "descripcion": "Un espacio para conocer de cerca cómo se construyen las políticas públicas y desarrollar tu voz como joven con capacidad de propuesta e incidencia.",
+      "icono": "fa-users-rays",
+      "bgIcono": "bg-azulNoche",
+      "colorIcono": "text-white"
+    },
+    {
+      "id": 2,
+      "titulo": "Emprendimiento & Tecnología",
+      "descripcion": "Conecta con referentes del mundo productivo orureño y descubre herramientas prácticas para transformar tus ideas en proyectos reales.",
+      "icono": "fa-rocket",
+      "bgIcono": "bg-sangre",
+      "colorIcono": "text-white"
+    },
+    {
+      "id": 3,
+      "titulo": "Deporte & Salud Integral",
+      "descripcion": "Visibiliza el talento deportivo del departamento y conoce las iniciativas para el bienestar físico y mental de los jóvenes orureños.",
+      "icono": "fa-person-running",
+      "bgIcono": "bg-oro",
+      "colorIcono": "text-azulNoche"
+    },
+    {
+      "id": 4,
+      "titulo": "Cultura y Folclore Vivo",
+      "descripcion": "Celebra la identidad orureña y participa en la construcción de políticas que protejan y promuevan el arte, la danza y las tradiciones de Oruro.",
+      "icono": "fa-masks-theater",
+      "bgIcono": "bg-sangreDark",
+      "colorIcono": "text-white"
+    }
+  ],
+  "certificado": {
+    "badge": "Acreditación Oficial",
+    "titulo": "Entrega de Certificado Oficial de Participación",
+    "descripcion": "Todos los asistentes registrados que completen la jornada presencial recibirán su certificado físico con código de verificación QR y firma de la Vicepresidencia de la Brigada Parlamentaria de Oruro.",
+    "icono": "fa-stamp"
+  }
+}

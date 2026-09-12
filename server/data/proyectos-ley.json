@@ -1,0 +1,61 @@
+{
+  "seccion": {
+    "badge": "Compromiso Legislativo Real",
+    "titulo": "Los 4 Proyectos de Ley para la Juventud",
+    "descripcion": "Iniciativas legislativas impulsadas desde la Brigada Parlamentaria para responder a las demandas históricas de las y los jóvenes orureños."
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "numero": "Proyecto 01",
+      "categoria": "Municipal",
+      "titulo": "Proyecto de Ley Municipal de la Juventud",
+      "descripcion": "Propuesta orientada a garantizar espacios de participación activa para los jóvenes en la gestión municipal de Oruro, promoviendo su protagonismo en las decisiones locales.",
+      "ambito": "Local Oruro",
+      "estado": "En consulta",
+      "icono": "fa-city",
+      "colorIcono": "text-sangre",
+      "bgIcono": "bg-sangre/10",
+      "bgIconoHover": "group-hover:bg-sangre group-hover:text-white"
+    },
+    {
+      "id": 2,
+      "numero": "Proyecto 02",
+      "categoria": "Departamental",
+      "titulo": "Proyecto de Ley Departamental de la Juventud",
+      "descripcion": "Iniciativa que busca articular políticas públicas juveniles en las 16 provincias de Oruro, reconociendo la diversidad y necesidades de cada territorio departamental.",
+      "ambito": "16 Provincias",
+      "estado": "En consulta",
+      "icono": "fa-landmark-dome",
+      "colorIcono": "text-azulNoche",
+      "bgIcono": "bg-azulNoche/10",
+      "bgIconoHover": "group-hover:bg-azulNoche group-hover:text-white"
+    },
+    {
+      "id": 3,
+      "numero": "Proyecto 03",
+      "categoria": "Deporte",
+      "titulo": "Incentivo Económico a Medallistas Internacionales",
+      "descripcion": "Proyecto que busca reconocer y apoyar a los deportistas orureños que representan a Bolivia en competencias internacionales, valorando su esfuerzo y dedicación.",
+      "ambito": "Alto Rendimiento",
+      "estado": "En consulta",
+      "icono": "fa-medal",
+      "colorIcono": "text-amber-600",
+      "bgIcono": "bg-amber-500/10",
+      "bgIconoHover": "group-hover:bg-oro group-hover:text-slate-900"
+    },
+    {
+      "id": 4,
+      "numero": "Proyecto 04",
+      "categoria": "Emprendimiento",
+      "titulo": "Incentivo y Formación Tributaria para Emprendedores",
+      "descripcion": "Propuesta para facilitar el emprendimiento juvenil en Oruro, brindando herramientas y condiciones favorables para que los jóvenes puedan desarrollar sus proyectos productivos.",
+      "ambito": "Innovación Económica",
+      "estado": "En consulta",
+      "icono": "fa-briefcase",
+      "colorIcono": "text-sangre",
+      "bgIcono": "bg-sangre/10",
+      "bgIconoHover": "group-hover:bg-sangre group-hover:text-white"
+    }
+  ]
+}

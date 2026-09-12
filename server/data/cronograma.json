@@ -1,0 +1,94 @@
+{
+  "seccion": {
+    "badge": "Itinerario de la Jornada",
+    "titulo": "Cronograma Oficial del Encuentro",
+    "descripcion": "Domingo 21 de Septiembre, 2026 • 6 actividades con destacados participantes de Oruro."
+  },
+  "actividades": [
+    {
+      "id": 1,
+      "numero": "Actividad 1",
+      "horaInicio": "14:00",
+      "horaFin": "14:30",
+      "horaDisplay": "14:00 - 14:30 PM",
+      "titulo": "Apertura Solemne y Acreditaciones",
+      "descripcion": "Registro de asistentes, entrega de credenciales y palabras de bienvenida. Apertura oficial a cargo del Dip. Daniel Alcalá, Vicepresidente de la Brigada Parlamentaria de Oruro.",
+      "participante": "Dip. Daniel Alcalá",
+      "rolParticipante": "Vicepresidente Brigada Parlamentaria",
+      "colorPunto": "bg-sangre",
+      "colorHora": "text-sangre",
+      "destacada": false
+    },
+    {
+      "id": 2,
+      "numero": "Actividad 2",
+      "horaInicio": "14:30",
+      "horaFin": "15:30",
+      "horaDisplay": "14:30 - 15:30 PM",
+      "titulo": "Presentación de los 4 Proyectos de Ley",
+      "descripcion": "Exposición de los proyectos legislativos para la juventud orureña. Participación especial de la Alcaldesa Adela Aviza Fuertes del municipio de Antequera.",
+      "participante": "Adela Aviza Fuertes",
+      "rolParticipante": "Alcaldesa de Antequera",
+      "colorPunto": "bg-azulNoche",
+      "colorHora": "text-azulNoche",
+      "destacada": false
+    },
+    {
+      "id": 3,
+      "numero": "Actividad 3",
+      "horaInicio": "15:30",
+      "horaFin": "16:30",
+      "horaDisplay": "15:30 - 16:30 PM",
+      "titulo": "Panel Joven: Concejales y Líderes de 16 a 18 años",
+      "descripcion": "Espacio de diálogo con un Concejal Destacado y representantes juveniles de entre 16 y 18 años de distintas provincias, quienes compartirán sus propuestas y experiencias.",
+      "participante": "Concejal Destacado",
+      "rolParticipante": "Jóvenes de 16 a 18 años",
+      "colorPunto": "bg-sangre",
+      "colorHora": "text-sangre",
+      "destacada": false
+    },
+    {
+      "id": 4,
+      "numero": "Actividad 4",
+      "horaInicio": "16:30",
+      "horaFin": "17:30",
+      "horaDisplay": "16:30 - 17:30 PM",
+      "titulo": "Mesas de Trabajo: Emprendimiento Juvenil Orureño",
+      "descripcion": "Debate e intercambio de propuestas en torno al emprendimiento joven, moderado por un reconocido Empresario Joven Orureño que compartirá su experiencia con los asistentes.",
+      "participante": "Empresario Joven Orureño",
+      "rolParticipante": "Referente del sector productivo",
+      "colorPunto": "bg-oro",
+      "colorHora": "text-amber-700",
+      "destacada": false
+    },
+    {
+      "id": 5,
+      "numero": "Actividad 5",
+      "horaInicio": "17:30",
+      "horaFin": "18:15",
+      "horaDisplay": "17:30 - 18:15 PM",
+      "titulo": "Muestra Folclórica: Grupo Musical de Oruro",
+      "descripcion": "Presentación artística y cultural a cargo de un destacado grupo musical folclórico de Oruro, en homenaje al Día de la Juventud y la Primavera.",
+      "participante": "Grupo Musical Folclórico",
+      "rolParticipante": "Artistas orureños",
+      "colorPunto": "bg-sangre",
+      "colorHora": "text-sangre",
+      "destacada": false
+    },
+    {
+      "id": 6,
+      "numero": "Actividad 6",
+      "etiquetaExtra": "Clausura",
+      "horaInicio": "18:15",
+      "horaFin": "19:00",
+      "horaDisplay": "18:15 - 19:00 PM",
+      "titulo": "Clausura Oficial y Entrega de Certificados",
+      "descripcion": "Lectura de conclusiones, firma del compromiso departamental y entrega personalizada de Certificados Oficiales de Participación a todos los asistentes.",
+      "participante": "Dip. Daniel Alcalá",
+      "rolParticipante": "Vicepresidente Brigada Parlamentaria",
+      "colorPunto": "bg-oro",
+      "colorHora": "text-amber-700",
+      "destacada": true
+    }
+  ]
+}
