@@ -15,7 +15,7 @@
           Afiche Oficial del Encuentro 2026
         </h2>
         <p class="text-slate-300 text-sm">
-          Descarga o comparte la imagen oficial con tus compañeros de curso, universidad o comparsa.
+          Descarga o comparte la imagen oficial con tus compañeros de curso, universidad.
         </p>
       </div>
 
@@ -38,6 +38,20 @@
         <div class="absolute top-2 right-2 w-6 h-6 border-t-2 border-r-2 border-oro rounded-tr-lg" aria-hidden="true"></div>
         <div class="absolute bottom-2 left-2 w-6 h-6 border-b-2 border-l-2 border-oro rounded-bl-lg" aria-hidden="true"></div>
         <div class="absolute bottom-2 right-2 w-6 h-6 border-b-2 border-r-2 border-oro rounded-br-lg" aria-hidden="true"></div>
+      </div>
+
+      <!-- Botón de descarga -->
+      <div class="mt-8">
+        <a
+          href="/ejemplo.jpg"
+          download="Afiche-Encuentro-Juvenil-2026.jpg"
+          class="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-white text-sm font-extrabold shadow-xl transition-all hover:scale-105 active:scale-95"
+          style="background: linear-gradient(135deg, #800020, #5c0017); border: 1px solid rgba(212,175,55,0.5);"
+        >
+          <i class="fa-solid fa-download" style="color:#D4AF37;" aria-hidden="true"></i>
+          Descargar Afiche Oficial
+          <span class="px-2 py-0.5 rounded-full text-[10px] font-bold" style="background:rgba(212,175,55,0.25); color:#D4AF37;">JPG</span>
+        </a>
       </div>
 
       <!-- Pill de datos debajo del flyer -->

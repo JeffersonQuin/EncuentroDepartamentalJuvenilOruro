@@ -21,12 +21,12 @@ export default defineEventHandler(() => {
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 01",
-          "categoria": "Anuncio Histórico",
+          "categoria": "Anuncio",
           "colorCategoria": "text-sangre",
           "titulo": "Lanzamiento Oficial: Oruro abre sus puertas a la juventud",
           "parrafo": "La Brigada Parlamentaria de Oruro presenta formalmente la convocatoria dirigida a colegiales de secundaria, estudiantes universitarios de la UTO, institutos técnicos y colectivos juveniles de todo el departamento.",
           "puntos": [
-            "Convocatoria abierta para las 16 provincias de Oruro.",
+            "Convocatoria abierta para todos lo jovenes de Oruro.",
             "Espacio libre, plural e inclusivo sin distinción política."
           ]
         }
@@ -48,20 +48,20 @@ export default defineEventHandler(() => {
           "categoria": "Propósito Central",
           "colorCategoria": "text-azulNoche",
           "titulo": "¿Qué es el Encuentro Departamental Juvenil?",
-          "parrafo": "Más que una conferencia, es una mesa de trabajo real donde las inquietudes de los jóvenes se traducen en mandatos parlamentarios. Tendrás contacto directo con autoridades legislativas nacionales para que tus ideas se conviertan en leyes reales.",
+          "parrafo": "Una plataforma abierta donde la experiencia y el entusiasmo de la juventud se unen para construir el presente. Participa en un espacio dinámico para reflexionar sobre nuestras prioridades, conectar con otros talentos locales y plasmar tus ideas en soluciones reales para el departamento.",
           "cards": [
             {
               "icono": "fa-comments",
               "colorIcono": "text-sangre",
-              "titulo": "Diálogo Abierto",
-              "descripcion": "Debate cara a cara con legisladores."
+              "titulo": "Participación",
+              "descripcion": "Haz escuchar tu voz en las temáticas centrales."
             },
-            {
-              "icono": "fa-certificate",
+           {
+              "icono": "fa-lightbulb",
               "colorIcono": "text-oro",
-              "titulo": "Acreditación",
-              "descripcion": "Certificado con valor curricular avalado."
-            }
+              "titulo": "Oportunidad",
+              "descripcion": "Sé parte de iniciativas que transforman nuestro Departamento."
+           }
           ]
         }
       },
@@ -82,11 +82,11 @@ export default defineEventHandler(() => {
           "categoria": "Agenda Normativa",
           "colorCategoria": "text-sangre",
           "titulo": "Cuatro Proyectos de Ley explicados",
-          "parrafo": "Las leyes no deben redactarse a espaldas del pueblo. Conoce cómo benefician a los jóvenes deportistas, emprendedores y universitarios del departamento de Oruro.",
+          "parrafo": "Conoce las temáticas clave diseñadas para potenciar el liderazgo de los estudiantes, el impulso de los emprendedores y la dedicación de nuestros medallistas. Un recorrido por las oportunidades que buscan fortalecer el rol activo de los jóvenes en el desarrollo económico, social y cultural de Oruro.",
           "nota": {
             "icono": "fa-sparkles",
-            "titulo": "Tu voto y opinión cuentan:",
-            "texto": "Durante el encuentro podrás presentar adiciones, modificaciones y firmar el respaldo ciudadano a estas leyes."
+            "titulo": "Aporta tu perspectiva:",
+            "texto": "Tus observaciones e ideas ayudarán a definir las siguientes acciones del encuentro."
           }
         }
       },
@@ -97,8 +97,8 @@ export default defineEventHandler(() => {
         "gradiente": "from-azulNoche via-slate-900 to-azulProfundo",
         "icono": "fa-users",
         "botonLabel": "Reproduciendo",
-        "etiqueta": "Testimonios",
-        "descripcionVideo": "Jóvenes orureños cuentan por qué se suman al Encuentro Departamental Juvenil.",
+        "etiqueta": "Motivación",
+        "descripcionVideo": "Descubre el propósito que impulsa a la juventud a sumarse a este gran encuentro.",
         "videoLocal": null,
         "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
         "tiktokUrl": null,
@@ -106,11 +106,11 @@ export default defineEventHandler(() => {
           "numero": "Bloque 04",
           "categoria": "Voces de Oruro",
           "colorCategoria": "text-azulNoche",
-          "titulo": "Testimonios: Jóvenes de Oruro hablan",
-          "parrafo": "Jóvenes estudiantes, deportistas y líderes juveniles de distintas provincias de Oruro comparten sus expectativas sobre el encuentro y la importancia de participar en la construcción de leyes que los representan.",
+          "titulo": "Liderazgo en acción",
+          "parrafo": "Este encuentro representa una oportunidad clave para reafirmar el compromiso real de las nuevas generaciones con el desarrollo, la innovación y el progreso de Oruro. Un espacio pensado para integrar visiones, fomentar el trabajo colectivo y convertir el entusiasmo juvenil en iniciativas duraderas que beneficien a toda nuestra comunidad.",
           "cita": {
-            "texto": "Siempre nos dijeron que éramos el futuro, pero con estas leyes seremos los protagonistas del presente en Oruro.",
-            "autor": "Mariana Q., Estudiante de Derecho UTO"
+            "texto": "Más que ser el futuro, los jóvenes tenemos la oportunidad de actuar y transformar nuestro presente.",
+            "autor": "Mensaje del Encuentro"
           }
         }
       },
@@ -122,7 +122,7 @@ export default defineEventHandler(() => {
         "icono": "fa-map-pin",
         "botonLabel": "Reproduciendo",
         "etiqueta": "¿Cuándo y dónde?",
-        "descripcionVideo": "Horarios, lugar y cómo llegar al Encuentro Departamental Juvenil de Oruro.",
+        "descripcionVideo": "Horarios, ubicación exacta y detalles para asistir al Encuentro Departamental Juvenil de Oruro.",
         "videoLocal": null,
         "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
         "tiktokUrl": null,
@@ -131,11 +131,11 @@ export default defineEventHandler(() => {
           "categoria": "Información del Evento",
           "colorCategoria": "text-sangre",
           "titulo": "¿Cuándo y dónde? Todo lo que necesitas saber",
-          "parrafo": "El Encuentro Departamental Juvenil se realizará el 21 de Septiembre, Día de la Juventud y la Primavera. En este video encontrarás toda la información práctica: lugar exacto, horario de ingreso y lo que debes llevar el día del evento.",
+          "parrafo": "El Encuentro Departamental Juvenil se llevará a cabo el lunes 21 de septiembre de 2026, celebrando el Día de la Juventud y la Primavera. La cita es en el Auditorio Principal de la Facultad de Arquitectura y Urbanismo de la U.T.O., ubicado en la esquina de las calles 6 de Octubre y Ayacucho.",
           "badges": [
-            { "icono": "fa-clock", "texto": "14:00 PM Puntual", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
-            { "icono": "fa-map-location-dot", "texto": "Centro de Oruro", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
-            { "icono": "fa-id-badge", "texto": "Ingreso Gratuito previa inscripción", "estilo": "bg-amber-50 text-amber-900 border-oro/40" }
+            { "icono": "fa-clock", "texto": "14:00 Puntual", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
+            { "icono": "fa-building-columns", "texto": "Auditorio Fac. Arquitectura UTO", "estilo": "bg-slate-100 text-slate-800 border-slate-200" },
+            { "icono": "fa-map-location-dot", "texto": "6 de Octubre esq. Ayacucho", "estilo": "bg-amber-50 text-amber-900 border-oro/40" }
           ]
         }
       }

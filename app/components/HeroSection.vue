@@ -74,7 +74,7 @@
             >
               <i class="fa-solid fa-graduation-cap text-sm" aria-hidden="true"></i>
             </div>
-            <span>🎓 Incluye <strong style="color:#D4AF37;">Certificado Oficial de Participación</strong> (Valor Curricular)</span>
+            <span>🎓 Incluye <strong style="color:#D4AF37;">Certificado Oficial de Participación</strong> </span>
           </div>
 
           <!-- CTAs -->
@@ -127,7 +127,7 @@
             </div>
             <p class="text-xs mt-2 text-center lg:text-left" style="color:rgba(255,255,255,0.45);">
               <i class="fa-solid fa-calendar-day mr-1" style="color:rgba(212,175,55,0.6);" aria-hidden="true"></i>
-              Domingo 21 de Septiembre, 14:00 PM • Oruro
+              Lunes 21 de Septiembre, 14:00 PM • Oruro
             </p>
           </div>
         </div>

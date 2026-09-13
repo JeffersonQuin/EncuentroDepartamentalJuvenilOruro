@@ -70,10 +70,8 @@
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 text-center sm:text-left">
         <div>{{ footer.copyright }}</div>
         <div class="text-[11px] text-slate-400">
-          Diseñado con identidad orureña:
-          <span class="text-oro">Rojo Carmesí</span> •
-          <span class="text-white">Blanco Marfil</span> •
-          <span class="text-oro">Oro</span>
+          Diseñado por:
+          <span class="text-oro">Jovenes Lideres</span> 
         </div>
       </div>
     </div>

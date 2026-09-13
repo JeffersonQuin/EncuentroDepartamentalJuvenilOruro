@@ -1,47 +1,47 @@
 {
   "seccion": {
-    "badge": "Ejes de Trabajo y Oportunidades",
-    "titulo": "¿Qué ganarás al ser parte de este Encuentro?",
-    "descripcion": "Desarrollado para potenciar tus habilidades cívicas, tu perfil profesional y tu capacidad de liderazgo comunitario."
+    "badge": "Ejes de las Conferencias",
+    "titulo": "¿Qué aprenderás en las exposiciones?",
+    "descripcion": "Una serie de ponencias diseñadas para darte herramientas prácticas sobre emprendimiento, marco legal y vivencias de éxito."
   },
   "ejes": [
     {
       "id": 1,
-      "titulo": "Liderazgo & Gobernanza",
-      "descripcion": "Un espacio para conocer de cerca cómo se construyen las políticas públicas y desarrollar tu voz como joven con capacidad de propuesta e incidencia.",
-      "icono": "fa-users-rays",
+      "titulo": "Leyes & Marco Legal Juvenil",
+      "descripcion": "Conferencias enfocadas en explicar los derechos, normas e incentivos legales que benefician a la juventud actual.",
+      "icono": "fa-scale-balanced",
       "bgIcono": "bg-azulNoche",
       "colorIcono": "text-white"
     },
     {
       "id": 2,
-      "titulo": "Emprendimiento & Tecnología",
-      "descripcion": "Conecta con referentes del mundo productivo orureño y descubre herramientas prácticas para transformar tus ideas en proyectos reales.",
+      "titulo": "Emprendimiento & Negocios",
+      "descripcion": "Expositores expertos compartirán claves, herramientas y financiamiento para transformar tus ideas en proyectos reales.",
       "icono": "fa-rocket",
       "bgIcono": "bg-sangre",
       "colorIcono": "text-white"
     },
     {
       "id": 3,
-      "titulo": "Deporte & Salud Integral",
-      "descripcion": "Visibiliza el talento deportivo del departamento y conoce las iniciativas para el bienestar físico y mental de los jóvenes orureños.",
-      "icono": "fa-person-running",
+      "titulo": "Experiencias & Historias de Vida",
+      "descripcion": "Jóvenes destacados relatarán sus vivencias, retos superados y aprendizajes para inspirar a la nueva generación.",
+      "icono": "fa-user-graduate",
       "bgIcono": "bg-oro",
       "colorIcono": "text-azulNoche"
     },
     {
       "id": 4,
-      "titulo": "Cultura y Folclore Vivo",
-      "descripcion": "Celebra la identidad orureña y participa en la construcción de políticas que protejan y promuevan el arte, la danza y las tradiciones de Oruro.",
-      "icono": "fa-masks-theater",
+      "titulo": "Deporte, Cultura & Oportunidades",
+      "descripcion": "Ponencias sobre el impacto del deporte y la cultura como motores de desarrollo personal y profesional en Oruro.",
+      "icono": "fa-icons",
       "bgIcono": "bg-sangreDark",
       "colorIcono": "text-white"
     }
   ],
   "certificado": {
-    "badge": "Acreditación Oficial",
-    "titulo": "Entrega de Certificado Oficial de Participación",
-    "descripcion": "Todos los asistentes registrados que completen la jornada presencial recibirán su certificado físico con código de verificación QR y firma de la Vicepresidencia de la Brigada Parlamentaria de Oruro.",
-    "icono": "fa-stamp"
+    "badge": " Incluye Certificado Oficial de Participación",
+    "titulo": "Participa",
+    "descripcion": "Aprovecha la oportunidad de aprender directamente de los conferencistas y sumar esta valiosa experiencia a tu formación.",
+    "icono": "fa-chalkboard-user"
   }
 }

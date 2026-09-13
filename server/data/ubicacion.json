@@ -2,19 +2,19 @@
   "seccion": {
     "badge": "Ubicación Confirmada",
     "titulo": "¿Cómo llegar al evento en Oruro?",
-    "descripcion": "El encuentro se llevará a cabo en el corazón de la ciudad de Oruro, en una ubicación de fácil acceso para todas las líneas de transporte público y delegaciones interprovinciales."
+    "descripcion": "El encuentro se llevará a cabo en las instalaciones de la Facultad de Arquitectura y Urbanismo de la U.T.O., una ubicación de fácil acceso en la ciudad."
   },
   "sede": {
-    "nombre": "Auditorio Central / Centro de Convenciones de Oruro",
-    "direccion": "Calle Plata y Adolfo Mier (zona céntrica, a pasos de la Plaza 10 de Febrero)",
+    "nombre": "Auditorio Principal de la Facultad de Arquitectura y Urbanismo DE LA U.T.O.",
+    "direccion": "6 de Octubre esquina Ayacucho",
     "ciudad": "Oruro",
     "departamento": "Oruro",
     "pais": "Bolivia",
-    "referencia": "A metros de la Plaza 10 de Febrero",
+    "referencia": "Esquina 6 de Octubre y Ayacucho",
     "mapaEmbedUrl": null,
     "coordenadas": {
-      "lat": -17.9635,
-      "lng": -67.1102
+      "lat": null,
+      "lng": null
     }
   },
   "accesos": [
@@ -24,7 +24,7 @@
       "colorFondo": "bg-sangre/10",
       "colorIcono": "text-sangre",
       "titulo": "Dirección Principal",
-      "descripcion": "Auditorio Central de la Brigada Parlamentaria / Centro de Convenciones de Oruro, Calle Plata y Adolfo Mier (zona céntrica, a pasos de la Plaza 10 de Febrero)."
+      "descripcion": "Auditorio Principal de la Facultad de Arquitectura y Urbanismo DE LA U.T.O., ubicado en las calles 6 de Octubre esquina Ayacucho."
     },
     {
       "id": 2,
@@ -32,22 +32,22 @@
       "colorFondo": "bg-azulNoche/10",
       "colorIcono": "text-azulNoche",
       "titulo": "Líneas de Transporte",
-      "descripcion": "Micros y minis Líneas 1, 8, 101, y líneas rojas con parada directa en la Plaza Principal."
+      "descripcion": "Acceso mediante las distintas líneas de micros y minibuses que transitan por el centro de la ciudad y la zona universitaria."
     },
     {
       "id": 3,
       "icono": "fa-route",
       "colorFondo": "bg-oro/20",
       "colorIcono": "text-amber-800",
-      "titulo": "Delegaciones de las 16 Provincias",
-      "descripcion": "Mesa de recepción especial en el ingreso para grupos organizados de municipios y comunidades rurales."
+      "titulo": "Delegaciones y Participantes",
+      "descripcion": "Ingreso habilitado para estudiantes, universitarios, deportistas, emprendedores y delegaciones juveniles."
     }
   ],
   "mapa": {
     "badgeSede": "Sede Oficial Confirmada",
-    "tituloPin": "Centro Cívico de Oruro",
-    "referenciaPin": "A metros de la Plaza 10 de Febrero",
-    "fecha": "Domingo 21 Sept",
-    "hora": "14:00 PM"
+    "tituloPin": "Facultad de Arquitectura y Urbanismo U.T.O.",
+    "referenciaPin": "Calle 6 de Octubre esq. Ayacucho",
+    "fecha": "Lunes 21 de septiembre de 2026",
+    "hora": "14:30"
   }
 }

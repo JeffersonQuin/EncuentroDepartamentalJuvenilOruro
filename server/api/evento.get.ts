@@ -3,25 +3,25 @@ export default defineEventHandler(() => {
   const data = {
     "nombre": "Encuentro Departamental Juvenil 2026",
     "subtitulo": "Liderazgo que transforma, juventud que construye",
-    "descripcion": "Convocado por la Vicepresidencia de la Brigada Parlamentaria de Oruro, liderado por el Dip. Daniel Alcalá. El mayor espacio de concertación y propuestas para las juventudes orureñas.",
+    "descripcion": "Convocado por la Brigada Parlamentaria de Oruro, liderado por el Dip. Daniel Alcalá. El mayor espacio de concertación y propuestas para las juventudes orureñas.",
     "fecha": {
-      "display": "Domingo 21 de Septiembre, 2026",
+      "display": "Lunes 21 de Septiembre, 2026",
       "iso": "2026-09-21T14:00:00",
       "hora": "14:00 PM",
-      "diaSemana": "Domingo"
+      "diaSemana": "Lunes"
     },
     "ciudad": "Oruro, Bolivia",
     "convocante": {
-      "cargo": "Vicepresidencia de la Brigada Parlamentaria de Oruro",
+      "cargo": "La Brigada Parlamentaria de Oruro",
       "nombre": "Dip. Daniel Alcalá",
       "iniciales": "DA",
       "rol": "Vicepresidente Brigada de Oruro",
-      "cita": "Jóvenes de las 16 provincias, es momento de que sus ideas sean leyes concretas."
+      "cita": "Jóvenes es momento de que sus ideas sean leyes concretas."
     },
     "certificado": {
       "incluye": true,
-      "descripcion": "Certificado Oficial de Participación (Valor Curricular)",
-      "detalle": "Todos los asistentes registrados que completen la jornada presencial recibirán su certificado físico con código de verificación QR y firma de la Vicepresidencia de la Brigada Parlamentaria de Oruro."
+      "descripcion": "Certificado Oficial de Participación",
+      "detalle": "Todos los asistentes registrados que completen la jornada presencial recibirán su certificado físico."
     },
     "registroUrl": "https://forms.gle/",
     "ingreso": "Libre y gratuito, previa inscripción",
@@ -34,7 +34,7 @@ export default defineEventHandler(() => {
     "logos": {
       "brigada": {
         "nombre": "Brigada Parlamentaria",
-        "subtitulo": "de Oruro • Vicepresidencia",
+        "subtitulo": "de Oruro ",
         "icono": "fa-landmark"
       },
       "jovenes": {
@@ -60,11 +60,11 @@ export default defineEventHandler(() => {
       "countdownLabel": "Cuenta Regresiva para la Cita Presencial",
       "countdownTarget": "2026-09-21T14:00:00",
       "videoPrincipal": {
-        "etiqueta": "Mensaje Oficial",
-        "duracion": "01:45",
+        "etiqueta": "Mensaje",
+        "duracion": "01:00",
         "orador": "Dip. Daniel Alcalá",
         "rol": "Vicepresidente Brigada Oruro",
-        "cita": "Jóvenes de las 16 provincias, es momento de que sus ideas sean leyes concretas.",
+        "cita": "Jóvenes es momento de que sus ideas sean leyes concretas.",
         "url": "https://www.facebook.com/reel/1860635711563450",
         "facebookUrl": "https://www.facebook.com/reel/1860635711563450",
         "tiktokUrl": null
@@ -72,21 +72,21 @@ export default defineEventHandler(() => {
     },
     "inscripcion": {
       "titulo": "¡Únete al Encuentro Juvenil 2026!",
-      "subtitulo": "El ingreso es totalmente libre y gratuito. Para coordinar la entrega de tu material y la emisión de tu Certificado Oficial, confirma tu participación en el enlace externo oficial.",
+      "subtitulo": "El ingreso es totalmente libre y gratuito. Confirma tu participación.",
       "badgeTexto": "Asegura tu Asistencia Gratuita",
       "ctaTexto": "¡Inscribirme Aquí!",
       "garantias": [
         { "icono": "fa-shield-halved", "texto": "Participación Gratuita", "color": "text-sangre" },
-        { "icono": "fa-certificate", "texto": "Certificado Avalado", "color": "text-oro" },
+        { "icono": "fa-certificate", "texto": "Certificado", "color": "text-oro" },
         { "icono": "fa-users", "texto": "Cupos Limitados", "color": "text-azulNoche" }
       ]
     },
     "footer": {
-      "descripcion": "Iniciativa legislativa y ciudadana convocada por la Vicepresidencia de la Brigada Parlamentaria de Oruro para promover el protagonismo de las nuevas generaciones.",
+      "descripcion": "Iniciativa ciudadana convocada por la Brigada Parlamentaria de Oruro para promover el protagonismo de las nuevas generaciones.",
       "ciudad": "Oruro, Estado Plurinacional de Bolivia",
-      "aviso": "Página 100% informativa y de difusión cívica. Las inscripciones presenciales se gestionan a través de enlace externo seguro.",
-      "copyright": "© 2026 Encuentro Departamental Juvenil de Oruro. Gestión Vicepresidencia Brigada Parlamentaria.",
-      "credits": "Diseñado con identidad orureña: Rojo Carmesí • Blanco Marfil • Oro"
+      "aviso": "Página 100% informativa. Las inscripciones presenciales se gestionan a través del formulario de inscripcion.",
+      "copyright": "© 2026 Encuentro Departamental Juvenil de Oruro.",
+      "credits": "Jovenes Lideres"
     }
   }
   
