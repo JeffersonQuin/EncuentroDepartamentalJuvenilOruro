@@ -17,7 +17,7 @@ export default defineEventHandler(() => {
         "etiqueta": "Lanzamiento Oficial",
         "descripcionVideo": "Presentación desde el hemiciclo de la Brigada de Oruro.",
         "videoLocal": null,
-        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "facebookUrl": null,
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 01",
@@ -41,7 +41,7 @@ export default defineEventHandler(() => {
         "etiqueta": "¿Qué es el Encuentro?",
         "descripcionVideo": "Descubre en qué consiste este encuentro y por qué importa tu participación.",
         "videoLocal": null,
-        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "facebookUrl": null,
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 02",
@@ -75,7 +75,7 @@ export default defineEventHandler(() => {
         "etiqueta": "Proyectos de Ley",
         "descripcionVideo": "El Dip. Daniel Alcalá explica los 4 proyectos normativos para los jóvenes de Oruro.",
         "videoLocal": null,
-        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "facebookUrl": null,
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 03",
@@ -100,7 +100,7 @@ export default defineEventHandler(() => {
         "etiqueta": "Motivación",
         "descripcionVideo": "Descubre el propósito que impulsa a la juventud a sumarse a este gran encuentro.",
         "videoLocal": null,
-        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "facebookUrl": null,
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 04",
@@ -124,7 +124,7 @@ export default defineEventHandler(() => {
         "etiqueta": "¿Cuándo y dónde?",
         "descripcionVideo": "Horarios, ubicación exacta y detalles para asistir al Encuentro Departamental Juvenil de Oruro.",
         "videoLocal": null,
-        "facebookUrl": "https://www.facebook.com/reel/1052172140565358",
+        "facebookUrl": null,
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 05",

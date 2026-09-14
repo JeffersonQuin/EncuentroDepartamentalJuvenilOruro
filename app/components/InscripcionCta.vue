@@ -68,11 +68,50 @@
           </div>
 
           <!-- Mensaje adicional debajo del formulario -->
-          <div class="px-6 pb-8 text-center">
+          <div class="px-6 pb-4 text-center">
             <p class="text-xs text-slate-500 flex items-center justify-center gap-2">
               <i class="fa-solid fa-shield-halved text-sangre" aria-hidden="true"></i>
               <span>Tus datos están seguros y solo se usan para coordinar tu participación en el evento</span>
             </p>
+          </div>
+
+          <!-- WHATSAPP CTA -->
+          <div class="px-6 pb-8">
+            <div
+              class="rounded-2xl p-4 flex flex-col sm:flex-row items-center gap-4"
+              style="background: linear-gradient(135deg, #e7faf0, #d1f5e0); border: 1px solid rgba(37,211,102,0.45);"
+            >
+              <!-- Icono -->
+              <div
+                class="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
+                style="background: rgba(37,211,102,0.2); color: #128C7E;"
+              >
+                <i class="fa-brands fa-whatsapp text-3xl" aria-hidden="true"></i>
+              </div>
+
+              <!-- Texto -->
+              <div class="flex-1 text-center sm:text-left">
+                <p class="text-sm font-extrabold text-slate-800 leading-snug">
+                  Regístrate y únete al grupo de WhatsApp
+                </p>
+                <p class="text-xs mt-0.5 text-slate-600 leading-snug">
+                  Recibe tu <strong class="text-slate-800">certificado de participación</strong> y mantente informado de todo lo que ocurre en el evento
+                </p>
+              </div>
+
+              <!-- Botón -->
+              <a
+                href="https://chat.whatsapp.com/K6iQd9cQDPIA5QoYnDVhEP?s=sh&p=a&mlu=4&ilr=4"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="shrink-0 w-full sm:w-auto px-5 py-3 rounded-xl text-white text-sm font-extrabold shadow-lg flex items-center justify-center gap-2 transition-all hover:scale-105 active:scale-95"
+                style="background: linear-gradient(135deg, #25D366, #128C7E);"
+                aria-label="Unirse al grupo de WhatsApp del Encuentro Juvenil 2026"
+              >
+                <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                Unirse al grupo
+              </a>
+            </div>
           </div>
         </div>
 

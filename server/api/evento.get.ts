@@ -65,8 +65,8 @@ export default defineEventHandler(() => {
         "orador": "Dip. Daniel Alcalá",
         "rol": "Vicepresidente Brigada Oruro",
         "cita": "Jóvenes es momento de que sus ideas sean leyes concretas.",
-        "url": "https://www.facebook.com/reel/1860635711563450",
-        "facebookUrl": "https://www.facebook.com/reel/1860635711563450",
+        "url": null,
+        "facebookUrl": null,
         "tiktokUrl": null
       }
     },
