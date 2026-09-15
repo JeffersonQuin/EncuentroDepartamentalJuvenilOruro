@@ -67,7 +67,7 @@ export default defineEventHandler(() => {
         "cita": "Jóvenes es momento de que sus ideas sean leyes concretas.",
         "url": null,
         "facebookUrl": null,
-        "tiktokUrl": null
+        "tiktokUrl": "https://www.tiktok.com/@diputado.daniel.alcala/video/7685522920981957909?is_from_webapp=1&sender_device=pc"
       }
     },
     "inscripcion": {
