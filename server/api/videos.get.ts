@@ -18,7 +18,7 @@ export default defineEventHandler(() => {
         "descripcionVideo": "Presentación desde el hemiciclo de la Brigada de Oruro.",
         "videoLocal": null,
         "facebookUrl": null,
-        "tiktokUrl": null,
+        "tiktokUrl": "https://www.tiktok.com/@diputado.daniel.alcala/video/7686220570236701973?_r=1&_t=ZS-99n15NeRY8K",
         "texto": {
           "numero": "Bloque 01",
           "categoria": "Anuncio",

@@ -20,7 +20,8 @@
     <EjesTematicos v-if="ejesTematicos" :data="ejesTematicos" />
 
     <!-- Cronograma interactivo -->
-    <CronogramaTimeline v-if="cronograma" :data="cronograma" />
+  
+    <!-- <CronogramaTimeline v-if="cronograma" :data="cronograma" /> -->
 
     <!-- Flyer oficial del evento -->
     <FlyerOficial />
