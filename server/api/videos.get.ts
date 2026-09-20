@@ -42,7 +42,7 @@ export default defineEventHandler(() => {
         "descripcionVideo": "Descubre en qué consiste este encuentro y por qué importa tu participación.",
         "videoLocal": null,
         "facebookUrl": null,
-        "tiktokUrl": null,
+        "tiktokUrl": "https://www.tiktok.com/@diputado.daniel.alcala/video/7686901152159501588?_r=1&_t=ZS-99q7ZJ1ff7M",
         "texto": {
           "numero": "Bloque 02",
           "categoria": "Propósito Central",
@@ -75,7 +75,7 @@ export default defineEventHandler(() => {
         "etiqueta": "Proyectos de Ley",
         "descripcionVideo": "El Dip. Daniel Alcalá explica los 4 proyectos normativos para los jóvenes de Oruro.",
         "videoLocal": null,
-        "facebookUrl": null,
+        "facebookUrl": "https://www.facebook.com/reel/2625366114551623",
         "tiktokUrl": null,
         "texto": {
           "numero": "Bloque 03",
@@ -101,7 +101,7 @@ export default defineEventHandler(() => {
         "descripcionVideo": "Descubre el propósito que impulsa a la juventud a sumarse a este gran encuentro.",
         "videoLocal": null,
         "facebookUrl": null,
-        "tiktokUrl": null,
+        "tiktokUrl": "https://www.tiktok.com/@momentoinformativo.or/video/7685858851798797575?_r=1&_t=ZS-99p46UBHyTs",
         "texto": {
           "numero": "Bloque 04",
           "categoria": "Voces de Oruro",
@@ -125,7 +125,7 @@ export default defineEventHandler(() => {
         "descripcionVideo": "Horarios, ubicación exacta y detalles para asistir al Encuentro Departamental Juvenil de Oruro.",
         "videoLocal": null,
         "facebookUrl": null,
-        "tiktokUrl": null,
+        "tiktokUrl": "https://www.tiktok.com/@sdds.y.sa/video/7686251086067354901?_r=1&_t=ZS-99p4QaVgHLQ",
         "texto": {
           "numero": "Bloque 05",
           "categoria": "Información del Evento",
